@@ -24,6 +24,10 @@ header{
     position: relative;
     
 }
+@media (min-width: 1024px) {
+    header {
+        background-attachment: fixed; 
+    }
 nav{
     display:flex;
     padding: .2% 1%;
