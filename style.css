@@ -545,6 +545,8 @@ color: #595959;
         padding: 10px;
         border-style: none;
         border-radius: 12px;
+        background-color: rgb(239, 239, 239);
+
     }
     .hero-btn:hover{
         color: #F2A0BE;
