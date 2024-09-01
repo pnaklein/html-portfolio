@@ -20,7 +20,6 @@ header{
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment: scroll;
     position: relative;
     
 }
@@ -394,10 +393,16 @@ width:100%;
 height: 300px;   
 background-repeat: no-repeat;
 background-size: 80%;
-background-attachment: fixed;
 background-position: 35% 35%;
 background-image: url(./AdobeStock_385174893\ Large.jpeg)
 }
+
+@media (min-width: 1024px) {
+    .imag_section {
+        background-attachment: fixed; /* Apply only on larger screens */
+    }
+}
+
 /*---------footer-------------*/
 footer{
 background-color: rgb(251, 251, 251);
